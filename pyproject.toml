@@ -5,13 +5,7 @@ description = "Temporary test package"
 authors = [{ name = "Sergi Vela", email = "sergi.vela@iqac.csic.es" }]
 requires-python = ">=3.10"
 dependencies = [
-    "numpy",
-    "networkx",
-    "scipy",
-    "rdkit",
-    "platformdirs",
     "scope @ git+https://github.com/QTC-IQAC/Scope.git",
-    "cell2mol @ git+https://github.com/lcmd-epfl/cell2mol.git",
     "ipykernel",
     "plotly",
     "nbformat",
@@ -19,11 +13,5 @@ dependencies = [
     "matplotlib"
 ]
 
-[tool.setuptools.packages.find]
-where = ["src"]
 [tool.setuptools]
-include-package-data = false
-
-[build-system]
-requires = ["setuptools", "wheel", "numpy"]
-build-backend = "setuptools.build_meta"
+packages = ["tutorials"]
