@@ -63,9 +63,9 @@
   3) The **State** class  
   4) The **Data**, **Collection** and **VNM** classes
   5) The **Input_data** class, and **scope input files**
-  6) Running <span style="color:blue">**SCOPE**</span> - Part 1: File Structure
-  7) Running <span style="color:blue">**SCOPE**</span> - Part 2: Execution 
-  8) Running <span style="color:blue">**SCOPE**</span> - Part 3: Detailed Actions
+  6) Running **SCOPE** - Part 1: File Structure
+  7) Running **SCOPE** - Part 2: Execution 
+  8) Running **SCOPE** - Part 3: Detailed Actions
 
 ---
 
@@ -79,4 +79,4 @@ MIT
   - Manel Serrano and Raul Santiago (IQAC-CSIC) for their coding contribution, and help at setting the repository
   - The Spanish Ministerio de Ciencia, Innovación y Universidades for funding (Project PID2022-138265NA-I00)
   - The EuroHPC Development Access Call (Project: EHPC-DEV-2024D11-031)
-  - The Centre de Supercomputació de Catalunya (CSUC) for Computational Resources. 
+  - The Centre de Supercomputació de Catalunya (CSUC) for Computational Resources
