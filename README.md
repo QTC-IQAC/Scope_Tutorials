@@ -1,11 +1,6 @@
-<p align="center">
-  <img src="mciu_logo.png" alt="Logo" width="400">
-</p>
-
 # About SCOPE
 
-  This repository contains the tutorials associated with the SCOPE package, developed by Sergi Vela and collaborators, at the IQAC (CSIC)
-  SCOPE is a Python package designed to handle computational chemistry workflows. It prepares, submits, and analyses Gaussian and Quantum Espresso computations of individual molecules or unit cells. 
+  This repository contains the tutorials associated with SCOPE, a Python package designed to handle computational chemistry workflows. SCOPE prepares, submits, and analyses Gaussian and Quantum Espresso computations of individual molecules or unit cells.  
   
   SCOPE has three main modules.
   1) Chemical Species:        Enables the creation of chemistry-related classes (e.g. Molecules, Ligands, Atoms, Bonds, Cells) that can be navigated and interacted with.
@@ -80,3 +75,8 @@ MIT
   - The Spanish Ministerio de Ciencia, Innovación y Universidades for funding (Project PID2022-138265NA-I00)
   - The EuroHPC Development Access Call (Project: EHPC-DEV-2024D11-031)
   - The Centre de Supercomputació de Catalunya (CSUC) for Computational Resources
+
+<p align="center">
+  <img src="images/mciu_logo.png" alt="Logo" width="400">
+</p>
+
