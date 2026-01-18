@@ -11,18 +11,19 @@
 
 &job_data
    branch       = 'tutorial'
-   workflow     = 'all_sources'
+   workflow     = 'all_sources' 
+   hierarchy    = 1
+   requisites   = []
+   constrains   = ['self']
+
    job_setup    = 'regular'
    suffix       = 'scf'
    keyword      = 'pbe scf'
+   must_be_good = True
 
    istate       = 'initial'
    fstate       = 'initial'
 
-   hierarchy    = 1
-   requisites   = []
-   constrains   = ['self']
-   must_be_good = True
 /
 
 &qc_data

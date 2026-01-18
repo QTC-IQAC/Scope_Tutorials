@@ -11,17 +11,17 @@
 &job_data
    branch       = 'tutorial'
    workflow     = 'all_sources'
-   job_setup    = 'regular'
-   suffix       = 'opt'
-   keyword      = 'pbe opt'
-
-   istate       = 'initial'
-   fstate       = 'pbe_opt'
-
    hierarchy    = 2
    requisites   = ['pbe scf']
    constrains   = ['self']
+
+   job_setup    = 'regular'
+   suffix       = 'opt'
+   keyword      = 'pbe opt'
    must_be_good = True
+
+   istate       = 'initial'
+   fstate       = 'pbe_opt'
 /
 
 &qc_data
