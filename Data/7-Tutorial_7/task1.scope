@@ -11,7 +11,7 @@
 
 &job_data
    branch       = 'tutorial'
-   workflow     = 'all' 
+   workflow     = 'all_sources'
    job_setup    = 'regular'
    suffix       = 'scf'
    keyword      = 'pbe scf'

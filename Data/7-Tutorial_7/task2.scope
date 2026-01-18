@@ -10,7 +10,7 @@
 
 &job_data
    branch       = 'tutorial'
-   workflow     = 'all'
+   workflow     = 'all_sources'
    job_setup    = 'regular'
    suffix       = 'opt'
    keyword      = 'pbe opt'
