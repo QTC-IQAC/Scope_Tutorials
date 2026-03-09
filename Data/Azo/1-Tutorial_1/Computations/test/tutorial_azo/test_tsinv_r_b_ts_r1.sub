@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH -J test_tsinv_r_b_ts_r1
+#SBATCH -e test_tsinv_r_b_ts_r1.stderr
+#SBATCH -o test_tsinv_r_b_ts_r1.stdout
+#SBATCH -p std
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --time=144000
+
+module load gaussian/16c2
+
+JOBDIR=$PWD
+cd $TMPDIR
+export GAUSS_SCRDIR $TMPDIR
+cp $JOBDIR/test_tsinv_r_b_ts_r1.com .
+echo '%nprocs=12' >  tmp1
+echo '%mem=18gb'    >> tmp1
+cat tmp1 test_tsinv_r_b_ts_r1.com > tmp2 | mv -f tmp2 test_tsinv_r_b_ts_r1.com
+g16 < test_tsinv_r_b_ts_r1.com > test_tsinv_r_b_ts_r1.log
+cp -pr *.log $JOBDIR/
