@@ -1,0 +1,2 @@
+/var/spool/slurmd/job2076949/slurm_script: línia 14: export: `/scratch/ucsscms/svela/2076949': no és un identificador vàlid
+mv: ha fallat stat() sobre 'tmp2': No such file or directory

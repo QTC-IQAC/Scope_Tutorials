@@ -1,0 +1,31 @@
+
+&environment
+   max_jobs         = 20
+   max_procs        = 240
+   requested_procs  = 12
+/
+
+&options
+/
+
+&job_data
+   branch       = 'tutorial_azo'
+   workflow     = ['trans','cis','tsrot_a_t','tsrot_b_t']
+   job_setup    = 'regular'
+   suffix       = 'freq'
+   keyword      = 'freq'
+
+   istate       = 'opt'
+   fstate       = 'opt'
+
+   hierarchy    = 3
+   requisites   = ['opt']
+   constrains   = ['self']
+/
+
+&qc_data
+   software     = 'g16'
+   jobtype      = 'freq'
+   functional   = 'wb97xd'
+   basis        = 'def2svp'
+/

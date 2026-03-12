@@ -1,0 +1,32 @@
+
+&environment
+   max_jobs         = 20
+   max_procs        = 240
+   requested_procs  = 12
+/
+
+&options
+/
+
+&job_data
+   branch       = 'tutorial_azo'
+   workflow     = ['trans','cis','tsrot_a_t','tsrot_b_t']
+   job_setup    = 'regular'
+   suffix       = 'opt'
+   keyword      = 'opt'
+
+   istate       = 'initial'
+   fstate       = 'opt'
+
+   hierarchy    = 1
+   requisites   = []
+   constrains   = ['self']
+   must_be_good = True
+/
+
+&qc_data
+   software     = 'g16'
+   jobtype      = 'opt'
+   functional   = 'wb97xd'
+   basis        = 'def2svp'
+/
