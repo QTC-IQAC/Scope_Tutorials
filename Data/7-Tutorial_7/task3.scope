@@ -11,13 +11,12 @@
 &job_data
    branch       = 'tutorial'
    workflow     = 'all_sources'
-   hierarchy    = 3
-   requisites   = ['pbe opt']
-   constrains   = ['self']
+   job_name     = 'freq'
+   job_type     = 'freq'
 
-   job_setup    = 'regular'
-   suffix       = 'freq'
-   keyword      = 'pbe freq'
+   hierarchy    = 3
+   requisites   = ['opt']
+   constrains   = ['self']
    must_be_good = True
 
    istate       = 'pbe_opt'

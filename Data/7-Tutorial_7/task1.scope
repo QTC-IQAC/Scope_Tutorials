@@ -16,19 +16,16 @@
    requisites   = []
    constrains   = ['self']
 
-   job_setup    = 'regular'
-   suffix       = 'scf'
-   keyword      = 'pbe scf'
+   job_name     = 'scf'
+   job_type     = 'scf'
    must_be_good = True
 
    istate       = 'initial'
    fstate       = 'initial'
-
 /
 
 &qc_data
    software     = 'g16'
-   jobtype      = 'scf'
    functional   = 'pbe'
    basis        = 'sto-3g'
 /
