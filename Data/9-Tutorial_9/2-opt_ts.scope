@@ -11,9 +11,7 @@
 &job_data
    branch       = 'tutorial_azo'
    workflow     = ['tsrot_a_s','tsrot_b_s','tsinv_l_a','tsinv_l_b','tsinv_r_a','tsinv_r_b']
-   job_setup    = 'regular'
-   suffix       = 'ts'
-   keyword      = 'ts'
+   job          = 'ts'
 
    istate       = 'initial'
    fstate       = 'opt'
@@ -26,7 +24,7 @@
 
 &qc_data
    software     = 'g16'
-   jobtype      = 'ts'
+   comp_type    = 'ts'
    fctype       = 'recalcfc'
    functional   = 'wb97xd'
    basis        = 'def2svp'

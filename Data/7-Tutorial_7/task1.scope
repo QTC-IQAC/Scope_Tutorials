@@ -12,12 +12,11 @@
 &job_data
    branch       = 'tutorial'
    workflow     = 'all_sources' 
+   job          = 'scf'
+
    hierarchy    = 1
    requisites   = []
    constrains   = ['self']
-
-   job_name     = 'scf'
-   job_type     = 'scf'
    must_be_good = True
 
    istate       = 'initial'
@@ -26,6 +25,7 @@
 
 &qc_data
    software     = 'g16'
+   comp_type    = 'scf'
    functional   = 'pbe'
    basis        = 'sto-3g'
 /

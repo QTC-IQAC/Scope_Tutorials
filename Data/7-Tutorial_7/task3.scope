@@ -11,8 +11,7 @@
 &job_data
    branch       = 'tutorial'
    workflow     = 'all_sources'
-   job_name     = 'freq'
-   job_type     = 'freq'
+   job          = 'freq'
 
    hierarchy    = 3
    requisites   = ['opt']
@@ -25,6 +24,7 @@
 
 &qc_data
    software     = 'g16'
+   comp_type    = 'freq'
    jobtype      = 'freq'
    functional   = 'pbe'
    basis        = 'sto-3g'

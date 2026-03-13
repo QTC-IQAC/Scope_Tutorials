@@ -11,9 +11,7 @@
 &job_data
    branch       = 'tutorial_azo'
    workflow     = ['trans','cis','tsrot_a_t','tsrot_b_t']
-   job_setup    = 'regular'
-   suffix       = 'opt'
-   keyword      = 'opt'
+   job          = 'opt'
 
    istate       = 'initial'
    fstate       = 'opt'
@@ -26,7 +24,7 @@
 
 &qc_data
    software     = 'g16'
-   jobtype      = 'opt'
+   comp_type    = 'opt'
    functional   = 'wb97xd'
    basis        = 'def2svp'
 /
