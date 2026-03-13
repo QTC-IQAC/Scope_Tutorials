@@ -1,4 +1,6 @@
 *.npy
+!Data/9-Tutorial_9/Systems/test/test.npy
+!Data/1-Tutorial_1/Systems/ABITEM/ABITEM.npy
 *egg-info/*
 tutorials/test_overlap/aligned2_0.xyz
 tutorials/test_overlap/aligned2_1.xyz
