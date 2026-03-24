@@ -68,7 +68,7 @@ These are the topics covered in each tutorial:
 
 # License
 
-MIT
+This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International license (`CC BY-NC-ND 4.0`). See the [LICENSE](LICENSE) file for the full text.
 
 ---
 
