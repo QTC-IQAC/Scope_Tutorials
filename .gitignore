@@ -1,16 +1,5 @@
+*egg-info/*
 *.npy
 !Data/9-Tutorial_9/Systems/test/test.npy
 !Data/1-Tutorial_1/Systems/ABITEM/ABITEM.npy
-*egg-info/*
-tutorials/test_overlap/aligned2_0.xyz
-tutorials/test_overlap/aligned2_1.xyz
-tutorials/test_overlap/centered1.xyz
-tutorials/test_overlap/centered2.xyz
-tutorials/test_overlap/final_translated1.xyz
-tutorials/test_overlap/final_translated2.xyz
-tutorials/test_overlap/final2.xyz
-tutorials/test_overlap/reorder1_0.xyz
-tutorials/test_overlap/reorder1_1.xyz
-tutorials/test_overlap/reorder2_0.xyz
-tutorials/test_overlap/reorder2_1.xyz
 *.DS_Store
