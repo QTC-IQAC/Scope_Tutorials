@@ -24,7 +24,6 @@
 &qc_data
    software     = 'g16'
    comp_type    = 'freq'
-   jobtype      = 'freq'
    functional   = 'wb97xd'
    basis        = 'def2svp'
 /

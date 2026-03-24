@@ -17,7 +17,6 @@
    hierarchy    = 1
    requisites   = []
    constrains   = ['self']
-   must_be_good = True
 
    istate       = 'initial'
    fstate       = 'initial'

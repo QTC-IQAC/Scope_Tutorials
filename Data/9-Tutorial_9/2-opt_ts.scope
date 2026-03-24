@@ -19,7 +19,6 @@
    hierarchy    = 2
    requisites   = []
    constrains   = ['self']
-   must_be_good = True
 /
 
 &qc_data
