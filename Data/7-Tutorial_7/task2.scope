@@ -16,7 +16,6 @@
    hierarchy    = 2
    requisites   = ['scf']
    constrains   = ['self']
-   must_be_good = True
 
    istate       = 'initial'
    fstate       = 'pbe_opt'

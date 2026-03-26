@@ -16,7 +16,6 @@
    hierarchy    = 3
    requisites   = ['opt']
    constrains   = ['self']
-   must_be_good = True
 
    istate       = 'pbe_opt'
    fstate       = 'pbe_opt'
@@ -25,6 +24,7 @@
 &qc_data
    software     = 'g16'
    comp_type    = 'freq'
+   jobtype      = 'freq'
    functional   = 'pbe'
    basis        = 'sto-3g'
    is_grimme    = True
