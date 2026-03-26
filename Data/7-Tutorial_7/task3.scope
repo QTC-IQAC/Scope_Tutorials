@@ -24,7 +24,6 @@
 &qc_data
    software     = 'g16'
    comp_type    = 'freq'
-   jobtype      = 'freq'
    functional   = 'pbe'
    basis        = 'sto-3g'
    is_grimme    = True
