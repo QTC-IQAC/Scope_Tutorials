@@ -12,7 +12,7 @@
 
 # Documentation
 
-  - The associated manuscript is under preparation. Partial documentation is available at: https://doi.org/10.26434/chemrxiv.15001415/v1  
+  - The associated manuscript is under preparation. Preprint available [here](https://doi.org/10.26434/chemrxiv.15001415/v1)
   - Source code is available [here](https://github.com/QTC-IQAC/Scope)
 
 ---
