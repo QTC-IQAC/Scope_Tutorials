@@ -19,27 +19,35 @@
 
 # Installation
 
+Python 3.12 is a strict requirement for these tutorials and the associated SCOPE packages.
+
   ## Source Code
 
-  This will install the source code of SCOPE, as well as the dependencies associated with the tutorials:
+  This will install the tutorials package together with the published SCOPE packages used in the notebooks:
 
   ```bash
   # create and activate conda environment and install pip
-  conda create --name scope 
+  conda create --name scope python=3.12
   conda activate scope
   conda install pip
+
+  # install external prerequisite for scope-qc
+  pip install git+https://github.com/lcmd-epfl/cell2mol.git
   
   # clone repository and enter
   git clone https://github.com/QTC-IQAC/Scope_Tutorials.git
   cd Scope_Tutorials
   
-  # install with pip 
+  # install tutorials and published SCOPE packages
   pip install . 
   ```
 
   ## Dependencies
 
-  - [scope](https://github.com/QTC-IQAC/Scope)
+  - [scope-qc](https://pypi.org/project/scope-qc/)
+  - [scope-sco](https://pypi.org/project/scope-sco/)
+  - [scope-azo](https://pypi.org/project/scope-azo/)
+  - [cell2mol](https://github.com/lcmd-epfl/cell2mol)
   - ipykernel
   - jupyter
   - nbformat
@@ -80,4 +88,3 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-No
 <p align="center">
   <img src="images/mciu_logo.png" alt="Logo" width="400">
 </p>
-

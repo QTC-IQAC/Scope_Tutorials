@@ -1,13 +1,14 @@
 [project]
 name = "scope_tutorials"
 version = "0.9.0"
-description = "Temporary test package"
+description = "Tutorials for SCOPE"
+readme = "README.md"
 authors = [{ name = "Sergi Vela", email = "sergi.vela@iqac.csic.es" }]
-requires-python = ">=3.10"
+requires-python = ">=3.12,<3.13"
 dependencies = [
-    "scope @ git+https://github.com/QTC-IQAC/Scope.git",
-    "scope-sco @ git+https://github.com/QTC-IQAC/Scope.git#subdirectory=sco",
-    "scope-azo @ git+https://github.com/QTC-IQAC/Scope.git#subdirectory=azo",
+    "scope-qc",
+    "scope-sco",
+    "scope-azo",
 ]
 
 [tool.setuptools]
