@@ -21,38 +21,49 @@
 
 Python 3.12 is a strict requirement for these tutorials and the associated SCOPE packages.
 
-  ## Source Code
+This repository is not meant to be installed as a standalone package. Instead, install the published SCOPE packages used by the notebooks, then clone this repository to access the tutorial notebooks and data.
 
-  This will install the tutorials package together with the published SCOPE packages used in the notebooks:
+  ## Environment setup
 
   ```bash
-  # create and activate conda environment and install pip
+  # create and activate a Python 3.12 environment
   conda create --name scope python=3.12
   conda activate scope
   conda install pip
-
-  # install external prerequisite for scope-qc
-  pip install git+https://github.com/lcmd-epfl/cell2mol.git
-  
-  # clone repository and enter
-  git clone https://github.com/QTC-IQAC/Scope_Tutorials.git
-  cd Scope_Tutorials
-  
-  # install tutorials and published SCOPE packages
-  pip install . 
   ```
 
-  ## Dependencies
+  ## Install the SCOPE packages
+
+  Follow the installation instructions of the published packages:
 
   - [scope-qc](https://pypi.org/project/scope-qc/)
   - [scope-sco](https://pypi.org/project/scope-sco/)
   - [scope-azo](https://pypi.org/project/scope-azo/)
-  - [cell2mol](https://github.com/lcmd-epfl/cell2mol)
-  - ipykernel
-  - jupyter
-  - nbformat
-  - matplotlib
-  - plotly
+
+  Notes:
+
+  - `scope-qc` requires [cell2mol](https://github.com/lcmd-epfl/cell2mol).
+  - `scope-azo` requires Open Babel to be installed beforehand: 
+
+  ```bash
+  conda install openbabel -c conda-forge
+  ```
+
+  ## Install notebook tools
+
+  ```bash
+  pip install jupyter ipykernel nbformat matplotlib plotly
+  ```
+
+  ## Download the tutorials
+
+  ```bash
+  git clone https://github.com/QTC-IQAC/Scope_Tutorials.git
+  cd Scope_Tutorials
+  jupyter notebook
+  ```
+
+  Then open any notebook from the `tutorials/` directory and explore the accompanying files in `Data/`.
 
 ---
 
