@@ -1,10 +1,10 @@
 # SCOPE: A Chemically-Aware Workflow-Automation Software for Molecules and Molecular Crystals
 
-  This repository contains the tutorials associated with SCOPE, a Python package designed to handle computational chemistry workflows. SCOPE prepares, submits, and analyses Gaussian and Quantum Espresso computations of individual molecules or molecule-based crystals.  
+  This repository contains the tutorials associated with SCOPE, a Python package designed to orchestrate computational chemistry workflows. SCOPE prepares, submits, and analyses quantum chemistry computations of individual molecules or molecule-based crystals, and organizes the results to simplify analysis.  
   
-  SCOPE has three core functionalities.
-  1) Chemical Species:        Dedicated to the definition of chemistry-related classes (e.g. Molecules, Ligands, Atoms, Bonds, Cells) that can be navigated and interacted with.
-  2) Computational Workflow:  Dedicated to the orchestration of dynamic computational workflows.
+  SCOPE has four core pillars.
+  1) Chemical Species:        Dedicated to encode the chemistry of the systems of interest. It can be expanded through add-ons
+  2) Computational Workflow:  Dedicated to define dynamic computational workflows.
   3) States:                  Dedicated to the analysis of results
   4) Environment:             Dedicated to file management and job execution in HPC clusters.
 
@@ -21,7 +21,7 @@
 
 Python 3.12 is a strict requirement for these tutorials and the associated SCOPE packages.
 
-This repository is not meant to be installed as a standalone package. Instead, install the published SCOPE packages used by the notebooks, then clone this repository to access the tutorial notebooks and data.
+This repository requires the installation of SCOPE and its add-ons. Once installed, then clone this repository to access the tutorial notebooks and data.
 
   ## 1-Environment setup
 
@@ -34,20 +34,9 @@ This repository is not meant to be installed as a standalone package. Instead, i
 
   ## 2-Install all SCOPE packages
 
-  Follow the installation instructions of the published packages:
+  Follow the installation instructions of SCOPE, and install all add-ons:
 
   - [scope-qc](https://pypi.org/project/scope-qc/)
-  - [scope-sco](https://pypi.org/project/scope-sco/)
-  - [scope-azo](https://pypi.org/project/scope-azo/)
-
-  Notes:
-
-  - `scope-qc` requires [cell2mol](https://github.com/lcmd-epfl/cell2mol).
-  - `scope-azo` requires Open Babel to be installed beforehand: 
-
-  ```bash
-  conda install openbabel -c conda-forge
-  ```
 
   ## 3-Install notebook tools
 
