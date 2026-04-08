@@ -23,7 +23,7 @@ Python 3.12 is a strict requirement for these tutorials and the associated SCOPE
 
 This repository requires the installation of SCOPE and its add-ons. Once installed, then clone this repository to access the tutorial notebooks and data.
 
-  ## 1-Environment setup
+  ### 1-Environment setup
 
   ```bash
   # create and activate a Python 3.12 environment
@@ -32,19 +32,19 @@ This repository requires the installation of SCOPE and its add-ons. Once install
   conda install pip
   ```
 
-  ## 2-Install all SCOPE packages
+  ### 2-Install all SCOPE packages
 
   Follow the installation instructions of SCOPE, and install all add-ons:
 
   - [scope-qc](https://pypi.org/project/scope-qc/)
 
-  ## 3-Install notebook tools
+  ### 3-Install notebook tools
 
   ```bash
   pip install jupyter ipykernel nbformat matplotlib plotly
   ```
 
-  ## 4-Download the tutorials
+  ### 4-Download the tutorials
 
   ```bash
   git clone https://github.com/QTC-IQAC/Scope_Tutorials.git
