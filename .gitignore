@@ -2,4 +2,5 @@
 *.npy
 !Data/9-Tutorial_9/Systems/test/test.npy
 !Data/1-Tutorial_1/Systems/ABITEM/ABITEM.npy
+Data/7-Tutorial_7/Computations/*
 *.DS_Store
