@@ -34,7 +34,7 @@ This repository requires the installation of SCOPE and its add-ons. Once install
 
   ### 2-Install all SCOPE packages
 
-  Follow the installation instructions of SCOPE, and install all add-ons:
+  Follow the installation instructions of SCOPE, and install all add-ons. Follow instructions here:
 
   - [scope-qc](https://pypi.org/project/scope-qc/)
 
