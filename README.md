@@ -36,14 +36,14 @@ This repository requires the installation of SCOPE and its add-ons. Once install
 
   Follow the installation instructions of SCOPE, and install all the SCO add-on:
   ```bash
-  - pip install scope-qc
-  - pip install scope-sco
+  pip install scope-qc
+  pip install scope-sco
   ```
 
-  For Tutorial 9, scope-azo is also needed:
+  For Tutorial 9, scope-azo and openbabel are also needed:
   ```bash
-  - conda install openbabel -c conda-forge
-  - pip install scope-azo
+  conda install openbabel -c conda-forge
+  pip install scope-azo
   ```
 
   ### 3-Install notebook tools
